@@ -4,7 +4,7 @@
 
 #if defined(BUILD_SHARED_LIB)
 #define LIB_EXTERN __declspec(dllexport)
-#elif defined(USE_SHARED)
+#elif defined(USE_SHARED_LIB)
 #define LIB_EXTERN __declspec(dllimport)
 #else
 #define LIB_EXTERN /* Nothing */
