@@ -17,7 +17,7 @@ srcs = files(
   'src/dependency.c',
 )
 
-libdependency = shared_library('dependency', srcs,
+libdependency = library('dependency', srcs,
   include_directories: incs,
   c_args: args,
   install: true,
