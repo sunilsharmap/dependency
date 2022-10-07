@@ -20,7 +20,7 @@ libdependency = library('dependency', srcs,
   include_directories: incs,
   install: true,
   install_rpath: '$ORIGIN',
-  soversion: '',
+  soversion: so_version,
   version: meson.project_version(),
 )
 
