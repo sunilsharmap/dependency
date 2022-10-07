@@ -18,7 +18,6 @@ endif
 
 libdependency = library('dependency', srcs,
   include_directories: incs,
-  c_args: args,
   install: true,
   install_rpath: '$ORIGIN',
   soversion: '',
